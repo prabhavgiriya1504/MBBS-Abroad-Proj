@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">MBBS Abroad</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#why">Why MBBS?</a></li>
+            <li><a href="#countries">Countries</a></li>
+            <li><a href="#process">Admission</a></li>
+            <li><a href="#apply">Apply</a></li>
+        </ul>
+        <button id="dark-mode-toggle">🌙</button>
+    </nav>
+    
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Study MBBS Abroad</h1>
+            <p>Apply Now and Start Your Journey!</p>
+            <a href="#apply">Apply Now</a>
+        </div>
+    </header>
+    
+    <!-- Why Study MBBS Abroad -->
+    <section id="why" class="section">
+        <h2>Why Study MBBS Abroad?</h2>
+        <div id="aff"class="why2">
+            <p>Affordable tuition fees</p>
+        </div>
+        <div id="glo"class="why2">
+            <p>Globally recognized degrees</p>
+        </div>
+        <div id="wor"class="why2">
+            <p>World-class universities</p>
+        </div>
+        
+    </section>
+    
+    <!-- Top Countries -->
+    <section id="countries" class="section">
+        <h2>Top Countries</h2>
+        <div class="country-grid">
+            <div class="country-card">
+                <img src="./imageS/russiajpg.jpg" alt="Russia">
+                <div class="overlay">Russia</div>
+            </div>
+            <div class="country-card">
+                <img src="./imageS/uzbek.jpg" alt="Uzbekistan">
+                <div class="overlay">Uzbekistan</div>
+            </div>
+            <div class="country-card">
+                <img src="./imageS/engl.jpg" alt="Kazakhstan">
+                <div class="overlay">England</div>
+            </div>
+            <div class="country-card">
+                <img src="./imageS/kazak.jpg" alt="Kazakhstan">
+                <div class="overlay">Kazakhstan</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Admission Process & Eligibility -->
+    <section id="process" class="section">
+        <h2>Admission Process & Eligibility</h2>
+        <div class="faq">
+            <button class="accordion">Step 1: Choose a country and university</button>
+            <div class="panel">Find the best university based on your budget and preference.</div>
+            
+            <button class="accordion">Step 2: Submit your documents</button>
+            <div class="panel">Submit your academic records and passport details.</div>
+            
+            <button class="accordion">Step 3: Receive your admission letter</button>
+            <div class="panel">Get confirmation from the university.</div>
+        </div>
+    </section>
+    
+    <!-- Lead Generation Form -->
+    <section id="apply" class="section form-container">
+        <h2>Apply Now</h2>
+        <form id="leadForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="Phone" required>
+            <select id="country" required>
+                <option value="">Select Preferred Country</option>
+                <option>Russia</option>
+                <option>Uzbekistan</option>
+                <option>Kazakhstan</option>
+                <option>Philippines</option>
+                <option>Georgia</option>
+                <option>Kyrgyzstan</option>
+                <option>Egypt</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top">⬆</button>
+
+    <footer>
+        <a href="">Insta</a><a href="">Contact</a><a href="">Help</a><a href="">About-Us</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
